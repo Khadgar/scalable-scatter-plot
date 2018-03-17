@@ -1,16 +1,26 @@
 .main text {
-    font: 10px sans-serif;
+    font: 12px sans-serif;
 }
 
-.axis line,
+line,
 .axis path {
     shape-rendering: crispEdges;
-    stroke: black;
+    stroke: #696969;
     fill: none;
 }
 
-circle {
-    fill: steelblue;
+.xAxis{
+    display:none;
+}
+
+.from {
+    fill: #85bb65;
+    opacity: 0.8;
+}
+
+.to {
+    fill: #85bb65;
+    opacity: 0.8;
 }
 
 .currentValue {
@@ -21,10 +31,19 @@ circle {
 }
 
 .currentValue-value {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
 }
 
 .valueName {
     padding-right: 4px;
+}
+
+.tick line {
+    opacity: 0.2;
+}
+
+.link{
+    opacity: 0.8;
 }

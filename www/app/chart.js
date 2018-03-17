@@ -15,15 +15,25 @@ define([
         init: function() {
             this.width = 960 - this.margin.left - this.margin.right;
             this.height = 500 - this.margin.top - this.margin.bottom;
+            this.defaultOpacityOfCircles = 0.8;
+            this.circleRadius = 7;
         },
 
         transFormCirclesData: function(data) {
+
+            // sort by salary from-to average
+            data = data.sort(function(a, b) {
+                return((a["salary-from"] + a["salary-to"]) / 2) - ((b["salary-from"] + b[
+                        "salary-to"]) /
+                    2);
+            });
             // data transform for from-to dots
             var circlesData = [];
             data.forEach((e, i) => {
                 circlesData.push([i, e["salary-from"], e["className"] + " from", e["role"], "from"]);
                 circlesData.push([i, e["salary-to"], e["className"] + " to", e["role"], "to"]);
             });
+
             return circlesData;
         },
 
@@ -74,6 +84,7 @@ define([
                 .attr('height', this.height)
                 .attr('class', 'main')
 
+
             // define x-axis scaling
             var xAxis = d3.svg.axis()
                 .scale(this.scaleX)
@@ -86,24 +97,27 @@ define([
             // x-axis values
             var x_axis = main.append('g')
                 .attr('transform', 'translate(0,' + this.height + ')')
-                .attr('class', 'main axis date')
+                .attr('class', 'xAxis')
                 .call(xAxis)
-                .selectAll("text")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-65)");
+                // .selectAll("text")
+                // .style("text-anchor", "end")
+                // .attr("dx", "-.8em")
+                // .attr("dy", ".15em")
+                // .attr("transform", "rotate(-65)");
 
-            // Add the text label for the x axis
-            // main.append("text")
-            //     .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom) + ")")
-            //     .style("text-anchor", "middle")
-            //     .text("Role");
+            //Add the text label for the x axis
+            main.append("text")
+                .attr("transform", "translate(" + (0) + " ," + (this.height + 26) + ")")
+                .style("text-anchor", "middle")
+                .text("Role");
 
             // draw the y axis
             var yAxis = d3.svg.axis()
                 .scale(this.scaleY)
-                .orient("left");
+                .orient("left")
+                .innerTickSize(-this.width)
+                .outerTickSize(0)
+                .tickPadding(10);
 
             var y_axis = main.append('g')
                 .attr('transform', 'translate(0,0)')
@@ -113,8 +127,8 @@ define([
             // Add the text label for the Y axis
             main.append("text")
                 .attr("transform", "rotate(-90)")
-                .attr("y", 0 - this.margin.left)
-                .attr("x", 0 - (this.height / 2))
+                .attr("y", 20 - this.margin.left)
+                .attr("x", 0 - (this.height))
                 .attr("dy", "1em")
                 .style("text-anchor", "middle")
                 .text("Salary");
@@ -146,15 +160,16 @@ define([
                     return {
                         source: {
                             x: d.x1,
-                            y: d.y1
+                            y: d.y1 - this.circleRadius
                         },
                         target: {
                             x: d.x2,
-                            y: d.y2
+                            y: d.y2 + this.circleRadius
                         }
                     }
                 }.bind(this))
-                .style('stroke', 'black')
+                .attr("class", "link")
+                .style('stroke', '#696969')
                 .attr('x1', function(d, i) {
                     return d.source.x
                 })
@@ -194,22 +209,35 @@ define([
                 .attr("cy", function(d) {
                     return d.y;
                 })
-                .attr("r", 8)
+                .attr("r", this.circleRadius)
                 .on('mouseover', function(d, i) {
                     d3.select(this).style("cursor", "pointer");
-                    d3.select(".jobTitle").text(d.role)
-                    var circles = d3.selectAll("." + d.id);
+                    d3.select(".jobTitle").text(d.role);
+                    d3.selectAll(".from")
+                        .style("opacity", this.defaultOpacityOfCircles);
+                    d3.selectAll(".to")
+                        .style("opacity", this.defaultOpacityOfCircles);
+
+                    var circles = d3.selectAll("." + d.id)
+                        .classed("active", true)
+                        .style("opacity", 1);
+
                     circles.each(function(circle) {
-                        if (circle.type === "to") {
-                            d3.select(".salaryMax").text(circle.salary)
+                        if(circle.type === "to") {
+                            d3.select(".salaryMax").text(circle.salary.toFixed(1) + " HUF")
                         } else {
-                            d3.select(".salaryMin").text(circle.salary)
+                            d3.select(".salaryMin").text(circle.salary.toFixed(1) + " HUF")
                         }
                     });
-                    console.log('circle move', d, i)
                 })
                 .on('mouseout', function(d, i) {
                     d3.select(this).style("cursor", "default");
+                    d3.selectAll(".from")
+                        .style("opacity", this.defaultOpacityOfCircles)
+                    d3.selectAll(".to")
+                        .style("opacity", this.defaultOpacityOfCircles)
+                    d3.selectAll("." + d.id)
+                        .classed("active", false);
                 });
 
             // fisheye setup
@@ -227,16 +255,23 @@ define([
             // reset scale on mouseleave
             svg.on("mouseleave", () => {
                 svg.selectAll('.from')
+                    .transition()
+                    .duration(500)
                     .attr("cx", (d, i) => {
                         return this.scaleX(i);
-                    });
+                    })
 
                 svg.selectAll('.to')
+                    .transition()
+                    .duration(500)
                     .attr("cx", (d, i) => {
                         return this.scaleX(i);
                     });
 
-                links.attr("x1", (e, t) => {
+                links
+                    .transition()
+                    .duration(500)
+                    .attr("x1", (e, t) => {
                         return this.scaleX(t)
                     })
                     .attr("x2", (e, t) => {

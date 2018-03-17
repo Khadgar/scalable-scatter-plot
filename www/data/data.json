@@ -1,541 +1,200 @@
-[{
-    "role": "Developer 2",
-    "salary-from": 441236,
-    "salary-to": 459508,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 375799,
-    "salary-to": 193367,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 219098,
-    "salary-to": 654606,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 239472,
-    "salary-to": 710241,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 367021,
-    "salary-to": 146534,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 512760,
-    "salary-to": 591642,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 556483,
-    "salary-to": 625558,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 493557,
-    "salary-to": 222514,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 457982,
-    "salary-to": 181190,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 353270,
-    "salary-to": 300419,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 205841,
-    "salary-to": 759171,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 113715,
-    "salary-to": 339127,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 134303,
-    "salary-to": 682043,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 544015,
-    "salary-to": 219771,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 337807,
-    "salary-to": 538586,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 641522,
-    "salary-to": 235116,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 269068,
-    "salary-to": 653604,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 142592,
-    "salary-to": 602531,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 665014,
-    "salary-to": 681332,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 284749,
-    "salary-to": 128238,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 155920,
-    "salary-to": 245516,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 367892,
-    "salary-to": 751453,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 626106,
-    "salary-to": 515715,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 452389,
-    "salary-to": 529627,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 397081,
-    "salary-to": 554457,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 222025,
-    "salary-to": 148471,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 344704,
-    "salary-to": 252953,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 492906,
-    "salary-to": 265737,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 228877,
-    "salary-to": 170019,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 493886,
-    "salary-to": 363233,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 625851,
-    "salary-to": 276845,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 468245,
-    "salary-to": 208176,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 402329,
-    "salary-to": 449690,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 564625,
-    "salary-to": 176414,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 333884,
-    "salary-to": 510550,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 201175,
-    "salary-to": 182038,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 615571,
-    "salary-to": 544283,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 394798,
-    "salary-to": 358971,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 652893,
-    "salary-to": 255521,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 341130,
-    "salary-to": 211306,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 327952,
-    "salary-to": 288927,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 374410,
-    "salary-to": 703270,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 485506,
-    "salary-to": 280141,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 592008,
-    "salary-to": 163286,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 282168,
-    "salary-to": 183718,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 323858,
-    "salary-to": 625556,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 347262,
-    "salary-to": 316037,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 119376,
-    "salary-to": 728924,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 672402,
-    "salary-to": 217374,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 502908,
-    "salary-to": 262160,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 340741,
-    "salary-to": 680943,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 178646,
-    "salary-to": 531166,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 617599,
-    "salary-to": 574197,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 571895,
-    "salary-to": 597254,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 427322,
-    "salary-to": 739661,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 452112,
-    "salary-to": 771535,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 225514,
-    "salary-to": 479433,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 550485,
-    "salary-to": 120008,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 162888,
-    "salary-to": 724696,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 418643,
-    "salary-to": 669343,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 356320,
-    "salary-to": 687861,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 182474,
-    "salary-to": 527527,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 620223,
-    "salary-to": 282167,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 570829,
-    "salary-to": 476785,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 146601,
-    "salary-to": 663553,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 591419,
-    "salary-to": 626602,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 255792,
-    "salary-to": 763269,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 322893,
-    "salary-to": 269942,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 565905,
-    "salary-to": 575595,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 405928,
-    "salary-to": 462974,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 506735,
-    "salary-to": 168096,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 287610,
-    "salary-to": 408096,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 438583,
-    "salary-to": 524173,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 673983,
-    "salary-to": 561820,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 205254,
-    "salary-to": 666994,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 298355,
-    "salary-to": 558599,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 472819,
-    "salary-to": 708235,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 697129,
-    "salary-to": 167665,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 528523,
-    "salary-to": 739008,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 468788,
-    "salary-to": 760082,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 487242,
-    "salary-to": 749443,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 470053,
-    "salary-to": 205182,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 628210,
-    "salary-to": 498207,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 312745,
-    "salary-to": 371412,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 652015,
-    "salary-to": 284486,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 441844,
-    "salary-to": 669087,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 194626,
-    "salary-to": 208118,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 285288,
-    "salary-to": 701175,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 397279,
-    "salary-to": 325486,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 488670,
-    "salary-to": 405078,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 467938,
-    "salary-to": 654558,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 253769,
-    "salary-to": 187246,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 402367,
-    "salary-to": 632782,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 487100,
-    "salary-to": 524612,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 666013,
-    "salary-to": 583521,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 176915,
-    "salary-to": 150146,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 378054,
-    "salary-to": 491243,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 239009,
-    "salary-to": 561062,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 421419,
-    "salary-to": 434502,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 259873,
-    "salary-to": 377213,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 466895,
-    "salary-to": 666823,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 114358,
-    "salary-to": 244945,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 152750,
-    "salary-to": 499993,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 448803,
-    "salary-to": 779111,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 266336,
-    "salary-to": 786254,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 134931,
-    "salary-to": 689260,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 506501,
-    "salary-to": 103431,
-    "className": "developer"
-}, {
-    "role": "Developer 2",
-    "salary-from": 151334,
-    "salary-to": 468892,
-    "className": "developer"
-}]
+[{"role":"Quality Engineer","salary-from":209014,"salary-to":437846,"className":"developer"},
+    {"role":"Payment Adjustment Coordinator","salary-from":214383,"salary-to":696378,"className":"developer"},
+    {"role":"Administrative Assistant II","salary-from":173920,"salary-to":500759,"className":"developer"},
+    {"role":"Senior Editor","salary-from":213104,"salary-to":462619,"className":"developer"},
+    {"role":"Quality Engineer","salary-from":225279,"salary-to":652159,"className":"developer"},
+    {"role":"Social Worker","salary-from":396595,"salary-to":902323,"className":"developer"},
+    {"role":"Software Test Engineer III","salary-from":161860,"salary-to":692950,"className":"developer"},
+    {"role":"Nurse Practicioner","salary-from":307170,"salary-to":509559,"className":"developer"},
+    {"role":"Environmental Tech","salary-from":364787,"salary-to":475323,"className":"developer"},
+    {"role":"Recruiter","salary-from":250290,"salary-to":952217,"className":"developer"},
+    {"role":"Sales Associate","salary-from":379639,"salary-to":960469,"className":"developer"},
+    {"role":"Sales Associate","salary-from":335739,"salary-to":998140,"className":"developer"},
+    {"role":"Actuary","salary-from":209325,"salary-to":422702,"className":"developer"},
+    {"role":"Financial Analyst","salary-from":151572,"salary-to":730553,"className":"developer"},
+    {"role":"Recruiting Manager","salary-from":371698,"salary-to":737504,"className":"developer"},
+    {"role":"Mechanical Systems Engineer","salary-from":348562,"salary-to":446699,"className":"developer"},
+    {"role":"Nurse Practicioner","salary-from":379940,"salary-to":593833,"className":"developer"},
+    {"role":"Dental Hygienist","salary-from":241011,"salary-to":830060,"className":"developer"},
+    {"role":"Electrical Engineer","salary-from":201744,"salary-to":693018,"className":"developer"},
+    {"role":"General Manager","salary-from":147606,"salary-to":878465,"className":"developer"},
+    {"role":"Office Assistant I","salary-from":397067,"salary-to":841783,"className":"developer"},
+    {"role":"Staff Accountant I","salary-from":151783,"salary-to":561146,"className":"developer"},
+    {"role":"Statistician I","salary-from":390155,"salary-to":873378,"className":"developer"},
+    {"role":"Legal Assistant","salary-from":156333,"salary-to":815278,"className":"developer"},
+    {"role":"Administrative Officer","salary-from":133651,"salary-to":890994,"className":"developer"},
+    {"role":"Web Designer IV","salary-from":360632,"salary-to":431687,"className":"developer"},
+    {"role":"Teacher","salary-from":130356,"salary-to":733847,"className":"developer"},
+    {"role":"Web Designer III","salary-from":364058,"salary-to":899278,"className":"developer"},
+    {"role":"VP Product Management","salary-from":308247,"salary-to":664336,"className":"developer"},
+    {"role":"Dental Hygienist","salary-from":324493,"salary-to":982219,"className":"developer"},
+    {"role":"Occupational Therapist","salary-from":172251,"salary-to":799868,"className":"developer"},
+    {"role":"Accounting Assistant I","salary-from":388985,"salary-to":589806,"className":"developer"},
+    {"role":"Health Coach II","salary-from":155982,"salary-to":513751,"className":"developer"},
+    {"role":"Software Test Engineer II","salary-from":316183,"salary-to":799655,"className":"developer"},
+    {"role":"VP Marketing","salary-from":152220,"salary-to":839834,"className":"developer"},
+    {"role":"Human Resources Assistant IV","salary-from":250361,"salary-to":674936,"className":"developer"},
+    {"role":"Office Assistant I","salary-from":380042,"salary-to":638163,"className":"developer"},
+    {"role":"GIS Technical Architect","salary-from":354785,"salary-to":963776,"className":"developer"},
+    {"role":"Teacher","salary-from":359433,"salary-to":975803,"className":"developer"},
+    {"role":"Help Desk Operator","salary-from":216153,"salary-to":936825,"className":"developer"},
+    {"role":"Sales Representative","salary-from":272190,"salary-to":857986,"className":"developer"},
+    {"role":"Chemical Engineer","salary-from":361307,"salary-to":711334,"className":"developer"},
+    {"role":"Structural Engineer","salary-from":292110,"salary-to":541825,"className":"developer"},
+    {"role":"Research Associate","salary-from":286592,"salary-to":840296,"className":"developer"},
+    {"role":"Programmer Analyst II","salary-from":152022,"salary-to":938203,"className":"developer"},
+    {"role":"Staff Accountant I","salary-from":190185,"salary-to":445402,"className":"developer"},
+    {"role":"Recruiting Manager","salary-from":169514,"salary-to":449348,"className":"developer"},
+    {"role":"Web Designer IV","salary-from":250760,"salary-to":615022,"className":"developer"},
+    {"role":"Programmer Analyst IV","salary-from":349909,"salary-to":773980,"className":"developer"},
+    {"role":"Nurse Practicioner","salary-from":324815,"salary-to":920861,"className":"developer"},
+    {"role":"Sales Associate","salary-from":306039,"salary-to":916428,"className":"developer"},
+    {"role":"Design Engineer","salary-from":261801,"salary-to":467670,"className":"developer"},
+    {"role":"Office Assistant IV","salary-from":329275,"salary-to":932754,"className":"developer"},
+    {"role":"Programmer IV","salary-from":297609,"salary-to":562412,"className":"developer"},
+    {"role":"General Manager","salary-from":300824,"salary-to":961619,"className":"developer"},
+    {"role":"Senior Editor","salary-from":382129,"salary-to":549393,"className":"developer"},
+    {"role":"Structural Analysis Engineer","salary-from":333050,"salary-to":846964,"className":"developer"},
+    {"role":"Research Nurse","salary-from":358949,"salary-to":681856,"className":"developer"},
+    {"role":"Sales Associate","salary-from":377225,"salary-to":557968,"className":"developer"},
+    {"role":"Legal Assistant","salary-from":213652,"salary-to":615501,"className":"developer"},
+    {"role":"GIS Technical Architect","salary-from":387524,"salary-to":525995,"className":"developer"},
+    {"role":"Civil Engineer","salary-from":195761,"salary-to":856752,"className":"developer"},
+    {"role":"Structural Analysis Engineer","salary-from":126903,"salary-to":587104,"className":"developer"},
+    {"role":"Recruiter","salary-from":244743,"salary-to":503677,"className":"developer"},
+    {"role":"Safety Technician III","salary-from":296797,"salary-to":900282,"className":"developer"},
+    {"role":"Automation Specialist III","salary-from":175951,"salary-to":469585,"className":"developer"},
+    {"role":"Research Associate","salary-from":332365,"salary-to":752134,"className":"developer"},
+    {"role":"Financial Analyst","salary-from":347412,"salary-to":606723,"className":"developer"},
+    {"role":"Safety Technician I","salary-from":138003,"salary-to":750751,"className":"developer"},
+    {"role":"Environmental Specialist","salary-from":182022,"salary-to":524173,"className":"developer"},
+    {"role":"Help Desk Operator","salary-from":333376,"salary-to":768282,"className":"developer"},
+    {"role":"Physical Therapy Assistant","salary-from":308472,"salary-to":985180,"className":"developer"},
+    {"role":"Senior Developer","salary-from":297898,"salary-to":611543,"className":"developer"},
+    {"role":"Payment Adjustment Coordinator","salary-from":195661,"salary-to":776670,"className":"developer"},
+    {"role":"Chemical Engineer","salary-from":192369,"salary-to":443934,"className":"developer"},
+    {"role":"Speech Pathologist","salary-from":129600,"salary-to":547617,"className":"developer"},
+    {"role":"Senior Developer","salary-from":167729,"salary-to":606818,"className":"developer"},
+    {"role":"Junior Executive","salary-from":254985,"salary-to":778299,"className":"developer"},
+    {"role":"Statistician I","salary-from":374549,"salary-to":946434,"className":"developer"},
+    {"role":"Project Manager","salary-from":352196,"salary-to":659420,"className":"developer"},
+    {"role":"Human Resources Manager","salary-from":388750,"salary-to":510807,"className":"developer"},
+    {"role":"Quality Control Specialist","salary-from":299947,"salary-to":644089,"className":"developer"},
+    {"role":"Compensation Analyst","salary-from":345960,"salary-to":865175,"className":"developer"},
+    {"role":"Food Chemist","salary-from":135208,"salary-to":808874,"className":"developer"},
+    {"role":"Registered Nurse","salary-from":373608,"salary-to":917535,"className":"developer"},
+    {"role":"Data Coordiator","salary-from":156124,"salary-to":645038,"className":"developer"},
+    {"role":"Account Executive","salary-from":248964,"salary-to":514451,"className":"developer"},
+    {"role":"Assistant Media Planner","salary-from":174922,"salary-to":489447,"className":"developer"},
+    {"role":"Software Test Engineer I","salary-from":259174,"salary-to":820670,"className":"developer"},
+    {"role":"VP Accounting","salary-from":242821,"salary-to":901006,"className":"developer"},
+    {"role":"Associate Professor","salary-from":264419,"salary-to":434698,"className":"developer"},
+    {"role":"Assistant Professor","salary-from":290462,"salary-to":944122,"className":"developer"},
+    {"role":"Senior Financial Analyst","salary-from":157162,"salary-to":889665,"className":"developer"},
+    {"role":"Operator","salary-from":295931,"salary-to":498171,"className":"developer"},
+    {"role":"Sales Associate","salary-from":351307,"salary-to":973707,"className":"developer"},
+    {"role":"Design Engineer","salary-from":270827,"salary-to":946558,"className":"developer"},
+    {"role":"Chemical Engineer","salary-from":240935,"salary-to":888931,"className":"developer"},
+    {"role":"Design Engineer","salary-from":184634,"salary-to":946803,"className":"developer"},
+    {"role":"Dental Hygienist","salary-from":345177,"salary-to":494377,"className":"developer"},
+    {"role":"Physical Therapy Assistant","salary-from":165650,"salary-to":752314,"className":"developer"},
+    {"role":"Tax Accountant","salary-from":252390,"salary-to":766210,"className":"developer"},
+    {"role":"Financial Analyst","salary-from":399106,"salary-to":716732,"className":"developer"},
+    {"role":"Staff Accountant IV","salary-from":243411,"salary-to":531213,"className":"developer"},
+    {"role":"Geologist IV","salary-from":201401,"salary-to":434218,"className":"developer"},
+    {"role":"Office Assistant IV","salary-from":156419,"salary-to":933874,"className":"developer"},
+    {"role":"Staff Scientist","salary-from":124121,"salary-to":741591,"className":"developer"},
+    {"role":"Dental Hygienist","salary-from":393001,"salary-to":707077,"className":"developer"},
+    {"role":"Help Desk Operator","salary-from":384488,"salary-to":844002,"className":"developer"},
+    {"role":"Information Systems Manager","salary-from":133930,"salary-to":687355,"className":"developer"},
+    {"role":"GIS Technical Architect","salary-from":161886,"salary-to":768970,"className":"developer"},
+    {"role":"Health Coach III","salary-from":321435,"salary-to":794880,"className":"developer"},
+    {"role":"Research Assistant IV","salary-from":331963,"salary-to":850612,"className":"developer"},
+    {"role":"Desktop Support Technician","salary-from":323618,"salary-to":507850,"className":"developer"},
+    {"role":"Product Engineer","salary-from":380891,"salary-to":472413,"className":"developer"},
+    {"role":"Web Designer III","salary-from":160346,"salary-to":770894,"className":"developer"},
+    {"role":"Database Administrator I","salary-from":344130,"salary-to":765917,"className":"developer"},
+    {"role":"VP Marketing","salary-from":142578,"salary-to":782424,"className":"developer"},
+    {"role":"Systems Administrator II","salary-from":329645,"salary-to":722366,"className":"developer"},
+    {"role":"VP Sales","salary-from":167339,"salary-to":746207,"className":"developer"},
+    {"role":"Safety Technician II","salary-from":251291,"salary-to":847844,"className":"developer"},
+    {"role":"Information Systems Manager","salary-from":156036,"salary-to":864489,"className":"developer"},
+    {"role":"Product Engineer","salary-from":266398,"salary-to":967482,"className":"developer"},
+    {"role":"Editor","salary-from":272796,"salary-to":424872,"className":"developer"},
+    {"role":"VP Accounting","salary-from":310726,"salary-to":776497,"className":"developer"},
+    {"role":"Editor","salary-from":394773,"salary-to":937901,"className":"developer"},
+    {"role":"Safety Technician III","salary-from":213455,"salary-to":873144,"className":"developer"},
+    {"role":"Structural Analysis Engineer","salary-from":124123,"salary-to":546006,"className":"developer"},
+    {"role":"Paralegal","salary-from":295181,"salary-to":598818,"className":"developer"},
+    {"role":"Computer Systems Analyst IV","salary-from":185883,"salary-to":590212,"className":"developer"},
+    {"role":"Electrical Engineer","salary-from":284452,"salary-to":559172,"className":"developer"},
+    {"role":"Operator","salary-from":281280,"salary-to":974992,"className":"developer"},
+    {"role":"Legal Assistant","salary-from":177305,"salary-to":506494,"className":"developer"},
+    {"role":"Software Test Engineer III","salary-from":127450,"salary-to":804155,"className":"developer"},
+    {"role":"Recruiting Manager","salary-from":239635,"salary-to":437105,"className":"developer"},
+    {"role":"Chief Design Engineer","salary-from":250492,"salary-to":806556,"className":"developer"},
+    {"role":"Budget/Accounting Analyst IV","salary-from":269286,"salary-to":833401,"className":"developer"},
+    {"role":"Human Resources Manager","salary-from":225349,"salary-to":971072,"className":"developer"},
+    {"role":"Budget/Accounting Analyst IV","salary-from":242082,"salary-to":917662,"className":"developer"},
+    {"role":"Data Coordiator","salary-from":392825,"salary-to":657416,"className":"developer"},
+    {"role":"Executive Secretary","salary-from":384074,"salary-to":817260,"className":"developer"},
+    {"role":"Graphic Designer","salary-from":188149,"salary-to":819241,"className":"developer"},
+    {"role":"Analyst Programmer","salary-from":216350,"salary-to":554816,"className":"developer"},
+    {"role":"Research Associate","salary-from":320500,"salary-to":944893,"className":"developer"},
+    {"role":"Director of Sales","salary-from":342941,"salary-to":747345,"className":"developer"},
+    {"role":"Systems Administrator II","salary-from":279507,"salary-to":708638,"className":"developer"},
+    {"role":"Internal Auditor","salary-from":329528,"salary-to":558136,"className":"developer"},
+    {"role":"Computer Systems Analyst II","salary-from":212380,"salary-to":805878,"className":"developer"},
+    {"role":"Professor","salary-from":227471,"salary-to":688530,"className":"developer"},
+    {"role":"Junior Executive","salary-from":231380,"salary-to":650611,"className":"developer"},
+    {"role":"Financial Advisor","salary-from":277877,"salary-to":546061,"className":"developer"},
+    {"role":"Automation Specialist III","salary-from":152365,"salary-to":725740,"className":"developer"},
+    {"role":"Teacher","salary-from":223476,"salary-to":972734,"className":"developer"},
+    {"role":"Assistant Professor","salary-from":173637,"salary-to":825666,"className":"developer"},
+    {"role":"Chief Design Engineer","salary-from":252298,"salary-to":866560,"className":"developer"},
+    {"role":"Pharmacist","salary-from":377157,"salary-to":817550,"className":"developer"},
+    {"role":"Environmental Tech","salary-from":141687,"salary-to":662705,"className":"developer"},
+    {"role":"Administrative Officer","salary-from":341394,"salary-to":964461,"className":"developer"},
+    {"role":"Operator","salary-from":273603,"salary-to":616291,"className":"developer"},
+    {"role":"Product Engineer","salary-from":146796,"salary-to":583247,"className":"developer"},
+    {"role":"Assistant Professor","salary-from":213035,"salary-to":992338,"className":"developer"},
+    {"role":"Information Systems Manager","salary-from":303301,"salary-to":774789,"className":"developer"},
+    {"role":"Clinical Specialist","salary-from":285911,"salary-to":472309,"className":"developer"},
+    {"role":"Design Engineer","salary-from":270851,"salary-to":770881,"className":"developer"},
+    {"role":"Desktop Support Technician","salary-from":219303,"salary-to":567751,"className":"developer"},
+    {"role":"Pharmacist","salary-from":157165,"salary-to":949841,"className":"developer"},
+    {"role":"Sales Representative","salary-from":164996,"salary-to":845592,"className":"developer"},
+    {"role":"Recruiting Manager","salary-from":172140,"salary-to":774937,"className":"developer"},
+    {"role":"Research Assistant II","salary-from":188540,"salary-to":659934,"className":"developer"},
+    {"role":"Safety Technician II","salary-from":243253,"salary-to":494593,"className":"developer"},
+    {"role":"Software Test Engineer I","salary-from":368934,"salary-to":787736,"className":"developer"},
+    {"role":"Programmer II","salary-from":359223,"salary-to":787744,"className":"developer"},
+    {"role":"Civil Engineer","salary-from":391723,"salary-to":424208,"className":"developer"},
+    {"role":"Technical Writer","salary-from":290996,"salary-to":689869,"className":"developer"},
+    {"role":"Senior Developer","salary-from":355260,"salary-to":535140,"className":"developer"},
+    {"role":"Database Administrator II","salary-from":398464,"salary-to":474867,"className":"developer"},
+    {"role":"Administrative Officer","salary-from":294664,"salary-to":507511,"className":"developer"},
+    {"role":"VP Accounting","salary-from":176297,"salary-to":667708,"className":"developer"},
+    {"role":"Senior Developer","salary-from":133351,"salary-to":712447,"className":"developer"},
+    {"role":"Assistant Media Planner","salary-from":398694,"salary-to":655901,"className":"developer"},
+    {"role":"Administrative Officer","salary-from":348190,"salary-to":445641,"className":"developer"},
+    {"role":"Cost Accountant","salary-from":399649,"salary-to":793962,"className":"developer"},
+    {"role":"Health Coach IV","salary-from":129748,"salary-to":419126,"className":"developer"},
+    {"role":"Recruiter","salary-from":367065,"salary-to":816919,"className":"developer"},
+    {"role":"Research Assistant I","salary-from":275017,"salary-to":460342,"className":"developer"},
+    {"role":"Safety Technician I","salary-from":237739,"salary-to":411033,"className":"developer"},
+    {"role":"Research Assistant II","salary-from":280383,"salary-to":471525,"className":"developer"},
+    {"role":"Help Desk Operator","salary-from":125707,"salary-to":809978,"className":"developer"},
+    {"role":"Computer Systems Analyst III","salary-from":123815,"salary-to":571448,"className":"developer"},
+    {"role":"Safety Technician III","salary-from":308777,"salary-to":524895,"className":"developer"},
+    {"role":"Accountant I","salary-from":298634,"salary-to":580228,"className":"developer"},
+    {"role":"Financial Advisor","salary-from":275524,"salary-to":504088,"className":"developer"},
+    {"role":"Structural Analysis Engineer","salary-from":389099,"salary-to":734965,"className":"developer"},
+    {"role":"Mechanical Systems Engineer","salary-from":172891,"salary-to":886604,"className":"developer"},
+    {"role":"Health Coach III","salary-from":153861,"salary-to":924161,"className":"developer"},
+    {"role":"Environmental Tech","salary-from":389859,"salary-to":687547,"className":"developer"},
+    {"role":"General Manager","salary-from":394288,"salary-to":435827,"className":"developer"},
+    {"role":"Graphic Designer","salary-from":340832,"salary-to":751628,"className":"developer"},
+    {"role":"Senior Sales Associate","salary-from":162763,"salary-to":419846,"className":"developer"},
+    {"role":"Human Resources Manager","salary-from":323028,"salary-to":629488,"className":"developer"},
+    {"role":"Developer IV","salary-from":190014,"salary-to":876363,"className":"developer"}]
