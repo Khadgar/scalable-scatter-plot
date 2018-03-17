@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="styles/appstyle.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap-grid.min.css">
+    <script data-main="app" src="lib/require.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div id="chartValueContainer col-md-auto">
+                <h2>Select A Job From The Chart And See The Salaries</h2>
+                <div class="currentValue border border-info rounded">
+                    <div class="currentValue-value">
+                        <p class="text-primary valueName">Job Title</p>
+                        <p class="jobTitle"></p>
+                    </div>
+                    <div class="currentValue-value">
+                        <p class="text-primary valueName">Max Salary</p>
+                        <p class="salaryMax"></p>
+                    </div>
+                    <div class="currentValue-value">
+                        <p class="text-primary valueName">Min Salary</p>
+                        <p class="salaryMin"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div id="chartContainer"></div>
+        </div>
+    </div>
+</body>
+
+</html>

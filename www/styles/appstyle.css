@@ -1,0 +1,30 @@
+.main text {
+    font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+.currentValue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.currentValue-value {
+    display: flex;
+    flex-direction: row;
+}
+
+.valueName {
+    padding-right: 4px;
+}
