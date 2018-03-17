@@ -20,7 +20,6 @@ define([
         },
 
         transFormCirclesData: function(data) {
-
             // sort by salary from-to average
             data = data.sort(function(a, b) {
                 return((a["salary-from"] + a["salary-to"]) / 2) - ((b["salary-from"] + b[
@@ -99,11 +98,11 @@ define([
                 .attr('transform', 'translate(0,' + this.height + ')')
                 .attr('class', 'xAxis')
                 .call(xAxis)
-                // .selectAll("text")
-                // .style("text-anchor", "end")
-                // .attr("dx", "-.8em")
-                // .attr("dy", ".15em")
-                // .attr("transform", "rotate(-65)");
+            // .selectAll("text")
+            // .style("text-anchor", "end")
+            // .attr("dx", "-.8em")
+            // .attr("dy", ".15em")
+            // .attr("transform", "rotate(-65)");
 
             //Add the text label for the x axis
             main.append("text")
@@ -121,7 +120,7 @@ define([
 
             var y_axis = main.append('g')
                 .attr('transform', 'translate(0,0)')
-                .attr('class', 'main axis date')
+                .attr('class', 'yAxis')
                 .call(yAxis);
 
             // Add the text label for the Y axis

@@ -2,8 +2,7 @@
     font: 12px sans-serif;
 }
 
-line,
-.axis path {
+line, path, yAxis {
     shape-rendering: crispEdges;
     stroke: #696969;
     fill: none;
@@ -19,7 +18,7 @@ line,
 }
 
 .to {
-    fill: #85bb65;
+    fill: #3E741E;
     opacity: 0.8;
 }
 
@@ -46,4 +45,9 @@ line,
 
 .link{
     opacity: 0.8;
+}
+
+.updateChartData{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
